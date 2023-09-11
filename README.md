@@ -4,7 +4,7 @@ Full Name: Santos, Justin Roy B.
 
 Degree Program: BS Computer Science
 
-Live Website Link: https://github.com/CMSC100-1S2324/my-github-page-Justin-Roy-Santos
+Live Website Link: https://cmsc100-1s2324.github.io/my-github-page-Justin-Roy-Santos/
 
 Steps on how to create GitHub page:
 - go to your github repo
