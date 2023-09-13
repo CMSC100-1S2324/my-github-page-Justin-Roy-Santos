@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: sans-serif;
 }
 
 /* selecting the div for the nav-bar */
@@ -21,13 +22,87 @@ body {
   flex-shrink: 1;
 }
 
+ul {
+  display: flex;
+}
+
 /* selecting the texts on the nav bar */
 li a {
   color: white;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
   margin-right: 25px;
+  margin-left: 25px;
+  font-family: sans-serif;
 }
+
+.logo-pic {
+  max-width: 120px;
+  max-height: auto;
+  margin-left: 15px;
+}
+
+
+.featured-photo-item {
+  margin-top: 20px;
+}
+
+
+
+
+/* PREVIOUS PROJECTS PORTION */
+.prev-projects-header {
+  margin-top: 50px;
+  text-align: center;
+
+}
+
+.previous-projects-container {
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  flex-wrap: wrap;
+}
+
+.prev-projects-item {
+  /* outline: 1px solid red; */
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.prev-project-link {
+  /* outline: 1px solid red; */
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.prev-projects-pic {
+  flex: 1;
+  /* outline: 1px solid red; */
+  max-width: 300px;
+  max-height: auto;
+}
+
+.prev-project-title {
+  flex: 1;
+  color: black;
+  text-align: center;
+  font-weight: 500px;
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -40,13 +115,9 @@ li a {
 
 .flex-item {
   flex: 1 1 0;
-  outline: 4px solid red;
 }
 
-.logo-pic {
-  max-width: 100px;
-  max-height: auto;
-}
+
 
 .menu-item {
   justify-content: center;
