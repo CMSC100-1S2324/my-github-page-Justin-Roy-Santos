@@ -7,6 +7,7 @@ body {
 .nav-bar {
   background-color: black;
   display: flex;
+  /* flex-wrap: wrap; */
   align-items: center;
   justify-content: space-between;
   margin: 0;
@@ -20,10 +21,12 @@ body {
   /* makes the list items inline (on one line) but its borders etc. are respected */
   display: inline-block;
   flex-shrink: 1;
+  margin: 5px;
 }
 
-ul {
+.menu {
   display: flex;
+  flex-wrap: wrap;
 }
 
 /* selecting the texts on the nav bar */
@@ -43,8 +46,20 @@ li a {
 }
 
 
+/* featured-photo */
+
+.featured-photo {
+  display: flex;
+  justify-content: center;
+  /* outline: 1px solid red; */
+}
+
 .featured-photo-item {
+  flex: 1;
   margin-top: 20px;
+  max-width: 1000px;
+  width: 100%;
+  height: auto;
 }
 
 
@@ -96,42 +111,79 @@ li a {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-.flex-container {
+/* skills */
+.skills-biography-container {
   display: flex;
-}
-
-.flex-item {
-  flex: 1 1 0;
-}
-
-
-
-.menu-item {
+  flex-direction: row;
   justify-content: center;
+  flex-wrap: wrap;
+  align-items: top;
+}
+
+.skills-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* outline: 1px solid red; */
+  width: 50%;
+}
+
+.skills-icons {
+  display: flex;
+  flex-direction: row;
+  /* outline: 1px solid red; */
+  flex-wrap: wrap;
+}
+
+.single-skills {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.skills-images {
+  max-width: 150px;
+}
+
+.c {
+  max-width: 130px;
+}
+
+
+/* autobiography section */
+.biography-container {
+  flex: 1;
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
   align-items: center;
 }
 
-option {
-  padding: 10px;
+
+/* footer contents */
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  background-color: black;
+  flex-wrap: wrap;
 }
 
-.featured-photo-item {
-  height: auto;
-  width: 0%;
+.footer-logo-container {
+  max-width: 40%;
+  padding-left: 20px;
+}
 
-  padding-left: 20%;
-  padding-right: 20%;
+.footer-logo-pic {
+  max-width: 200px;
+  margin-right: 20px;
+}
+
+.footer-text {
+  color: white;
+  margin-left: 20px;
 }
