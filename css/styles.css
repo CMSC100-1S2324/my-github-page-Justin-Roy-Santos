@@ -7,12 +7,27 @@ body {
 .nav-bar {
   background-color: black;
   display: flex;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   margin: 0;
   padding: 0;
 }
+
+.logo-and-name {
+  display: flex;
+  align-items: center;
+  
+}
+
+.logo-name {
+  color: white;
+  margin-left: 20px;
+  font-weight: 900px;
+  font-size: 35px;
+  font-family: monospace;
+}
+
 
 /* selecting the list items */
 .menu-option {
