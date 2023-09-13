@@ -13,3 +13,6 @@ Steps on how to create GitHub page:
 - In the Branch option, select the main branch, then press save
 
 Key Takeaways:
+- Designing websites is hard.
+- One can use a flexbox inside of a flexbox.
+- Use flex-wrap: wrap to make the flex items go to the next line when the flex container shrinks.
