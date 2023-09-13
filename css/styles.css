@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+}
+
+/* selecting the div for the nav-bar */
+.nav-bar {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+/* selecting the list items */
+.menu-option {
+  /* removes bullet style in the list */
+  list-style: none; 
+  /* makes the list items inline (on one line) but its borders etc. are respected */
+  display: inline-block;
+  flex-shrink: 1;
+}
+
+/* selecting the texts on the nav bar */
+li a {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 25px;
+}
+
+
+
+
+
+
+.flex-container {
+  display: flex;
+}
+
+.flex-item {
+  flex: 1 1 0;
+  outline: 4px solid red;
+}
+
+.logo-pic {
+  max-width: 100px;
+  max-height: auto;
+}
+
+.menu-item {
+  justify-content: center;
+  align-items: center;
+}
+
+option {
+  padding: 10px;
+}
+
+.featured-photo-item {
+  height: auto;
+  width: 0%;
+
+  padding-left: 20%;
+  padding-right: 20%;
+}
